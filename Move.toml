@@ -1,0 +1,16 @@
+[package]
+name = "aptos-kol"
+version = "1.0.0"
+authors = []
+
+[addresses]
+HelloMessage = "0x9e8c1d8b2d1f83810cea83734146292c4b3bf1a9735063299c29f0a56d48249c"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
